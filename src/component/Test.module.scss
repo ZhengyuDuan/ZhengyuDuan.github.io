@@ -1,0 +1,20 @@
+$image: "http://www.w3cplus.com/sites/default/files/blogs/2015/1506/huadenchushang.jpg";
+$width:100vw;
+$height:100vh;
+$raindrops:120;
+
+.container {
+    position: relative;
+    width: $width;
+    height: $height;
+    overflow: hidden;
+}
+
+.window {
+    position: absolute;
+    width: $width;
+    height: $height;
+    background: url($image);
+    background-size: cover;
+    background-position: 50%;
+}
