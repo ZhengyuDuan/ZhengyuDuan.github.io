@@ -4,11 +4,31 @@ import cx from 'classnames';
 export const Test = () => {
 	return (
 		<div className={cssModule.container} >
-			<div className={cx(
-				cssModule.window,
-				cssModule.border,
-				cssModule.raindrop
-			)}></div>
+			<div className={cssModule.window} />
+			<div className={cx(cssModule.raindrops)} >
+				<div className={cssModule.border} />
+				<div className={cssModule.raindrop} />
+				<div className={cssModule.border} />
+				<div className={cssModule.raindrop} />
+				<div className={cssModule.border} />
+				<div className={cssModule.raindrop} />
+				<div className={cssModule.border} />
+				<div className={cssModule.raindrop} />
+				<div className={cssModule.border} />
+				<div className={cssModule.raindrop} />
+				<div className={cssModule.border} />
+				<div className={cssModule.raindrop} />
+				<div className={cssModule.border} />
+				<div className={cssModule.raindrop} />
+				<div className={cssModule.border} />
+				<div className={cssModule.raindrop} />
+				<div className={cssModule.border} />
+				<div className={cssModule.raindrop} />
+				<div className={cssModule.border} />
+				<div className={cssModule.raindrop} />
+				<div className={cssModule.border} />
+				<div className={cssModule.raindrop} />
+			</div>
 		</div>
 	);
 };
